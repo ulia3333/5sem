@@ -1,0 +1,26 @@
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.csproj.AssemblyReference.cache
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.GeneratedMSBuildEditorConfig.editorconfig
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.AssemblyInfoInputs.cache
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.AssemblyInfo.cs
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.csproj.CoreCompileInputs.cache
+D:\3\Защита инфы Урбанович\lab 9\lab 9\bin\Debug\net6.0\lab 9.exe
+D:\3\Защита инфы Урбанович\lab 9\lab 9\bin\Debug\net6.0\lab 9.deps.json
+D:\3\Защита инфы Урбанович\lab 9\lab 9\bin\Debug\net6.0\lab 9.runtimeconfig.json
+D:\3\Защита инфы Урбанович\lab 9\lab 9\bin\Debug\net6.0\lab 9.dll
+D:\3\Защита инфы Урбанович\lab 9\lab 9\bin\Debug\net6.0\lab 9.pdb
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.dll
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\refint\lab 9.dll
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.pdb
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\lab 9.genruntimeconfig.cache
+D:\3\Защита инфы Урбанович\lab 9\lab 9\obj\Debug\net6.0\ref\lab 9.dll
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.csproj.AssemblyReference.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\LAB_9.Form1.resources
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab_9.Properties.Resources.resources
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.csproj.GenerateResource.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.GeneratedMSBuildEditorConfig.editorconfig
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.AssemblyInfoInputs.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.AssemblyInfo.cs
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.csproj.CoreCompileInputs.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.dll
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\refint\lab 9.dll
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\lab9\lab 9\obj\Debug\net6.0\lab 9.pdb

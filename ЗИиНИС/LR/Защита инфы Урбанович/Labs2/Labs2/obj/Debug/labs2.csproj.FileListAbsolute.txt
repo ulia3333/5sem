@@ -1,0 +1,32 @@
+C:\University\Data_Protection\labs2\labs2\bin\Debug\labs2.exe.config
+C:\University\Data_Protection\labs2\labs2\bin\Debug\labs2.exe
+C:\University\Data_Protection\labs2\labs2\bin\Debug\labs2.pdb
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.csprojAssemblyReference.cache
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.Form1.resources
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.Properties.Resources.resources
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.csproj.GenerateResource.cache
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.csproj.CoreCompileInputs.cache
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.exe
+C:\University\Data_Protection\labs2\labs2\obj\Debug\labs2.pdb
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\bin\Debug\labs2.exe.config
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\bin\Debug\labs2.exe
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\bin\Debug\labs2.pdb
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.Form1.resources
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.Properties.Resources.resources
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.csproj.GenerateResource.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.exe
+C:\Users\Lenovo\Downloads\Telegram Desktop\ZINIS-master\ZINIS-master\Semestr2\labs2\labs2\obj\Debug\labs2.pdb
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.exe
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.pdb
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\bin\Debug\labs2.exe.config
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\bin\Debug\labs2.exe
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\bin\Debug\labs2.pdb
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.csproj.AssemblyReference.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.csproj.SuggestedBindingRedirects.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.Form1.resources
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.Properties.Resources.resources
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.csproj.GenerateResource.cache
+D:\5sem\ЗИиНИС\LR\Защита инфы Урбанович\Labs2\labs2\obj\Debug\labs2.csproj.CoreCompileInputs.cache

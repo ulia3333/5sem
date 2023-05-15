@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K6YdF2kz3XDDiILAYQEj/X8kUgaJs4cqim57pSNR+l1WmIBwp1cx1Ac7xKXNw9epM7dWiyS6D4cn0nou3pyMzA==",
+  "success": true,
+  "projectFilePath": "D:\\3\\Защита инфы Урбанович\\Labs2\\Labs2\\Labs2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
