@@ -1,0 +1,5 @@
+﻿  ApplicationHemming.cpp
+D:\5sem\ЗИиНИС\LR\lab4\ApplicationHemming\ApplicationHemming\ApplicationHemming.cpp(92,5): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\5sem\ЗИиНИС\LR\lab4\ApplicationHemming\ApplicationHemming\ApplicationHemming.cpp(297,16): warning C4018: <: несоответствие типов со знаком и без знака
+D:\5sem\ЗИиНИС\LR\lab4\ApplicationHemming\ApplicationHemming\ApplicationHemming.cpp(500,20): warning C4018: <: несоответствие типов со знаком и без знака
+  ApplicationHemming.vcxproj -> D:\5sem\ЗИиНИС\LR\lab4\ApplicationHemming\Debug\ApplicationHemming.exe
