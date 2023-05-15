@@ -1,0 +1,44 @@
+Started by user [8mha:////4E0WzkpAlllt1mzTa3jYzJH5nZVH8sS0S9oqHuvVP7m6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9rNKczEQA7i2K7cAAAAA=[0mJulia Grintsevich
+Running as SYSTEM
+—обираетс€ удаленно на [8mha:////4GcyX/HrwP/dT5OtD3lyDCS+CYEWbTxfsRG2uWShrJTeAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6zkCGR35uKgBj+cgoxwAAAA==[0mCompHome (ff chrome win10 x64) in workspace C:\ProgramData\slave\workspace\Bring_it_on
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci
+ > C:\Program Files\Git\cmd\git.exe init C:\ProgramData\slave\workspace\Bring_it_on # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.33.0.windows.2'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 71518a34152cb6c6039a2443ced60af30a31f14c (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+Commit message: "Merge pull request #16 from EvgeniyRozhenko/fix-pom-utf8"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+[Bring_it_on] $ cmd.exe /C "E:\приложени€\Java\apache-maven-3.8.6\bin\mvn.cmd -f Java\pom.xml test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.330 s
+[INFO] Finished at: 2022-10-24T10:40:44+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Plugin org.apache.maven.plugins:maven-resources-plugin:2.6 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-resources-plugin:jar:2.6: Could not transfer artifact org.apache.maven.plugins:maven-resources-plugin:pom:2.6 from/to central (https://repo.maven.apache.org/maven2): transfer failed for https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom: Unknown host ќбычно - это временна€ ошибка, возникающа€ во врем€ разрешени€ имени узла, и означающа€, что локальный сервер не получил ответа от полномочного сервера (repo.maven.apache.org) -> [Help 1]
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Of6dMRSjHnejnXdu5pOlbSzRDVeERSwF16MoH1ZbD0vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+Build step '¬ызвать цели Maven верхнего уровн€  ' marked build as failure
+Archiving artifacts
+Finished: FAILURE

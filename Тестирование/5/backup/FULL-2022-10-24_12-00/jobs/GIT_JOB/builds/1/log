@@ -1,0 +1,22 @@
+Started by user [8mha:////4E0WzkpAlllt1mzTa3jYzJH5nZVH8sS0S9oqHuvVP7m6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9rNKczEQA7i2K7cAAAAA=[0mJulia Grintsevich
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\GIT_JOB
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\GIT_JOB # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.33.0.windows.2'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 71518a34152cb6c6039a2443ced60af30a31f14c (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+Commit message: "Merge pull request #16 from EvgeniyRozhenko/fix-pom-utf8"
+First time build. Skipping changelog.
+Finished: SUCCESS

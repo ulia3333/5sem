@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4EYZ5AdFEOJdofATQTQ7iUrPTJe1gFUo6bWHUm/qZMqWAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwuoBn6WflJ+sGZuQU5qapGBiAOADEO3/vHAAAA[0mSimple job" build number [8mha:////4Ge/YgNbHOD6tC1T2IJKqXFHQneu4/v157/9Hs7OEMvkAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/eDM3IKcVFUjAxDHBABRhaixyAAAAA==[0m4
+originally caused by:
+ Started by user [8mha:////4E0WzkpAlllt1mzTa3jYzJH5nZVH8sS0S9oqHuvVP7m6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9rNKczEQA7i2K7cAAAAA=[0mJulia Grintsevich
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\Simple job1
+[Simple job1] $ cmd /c call C:\WINDOWS\TEMP\jenkins17544858609042751487.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Simple job1>ECHO HI! 
+HI!
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Simple job1>exit 0 
+Finished: SUCCESS

@@ -1,0 +1,37 @@
+Started by user [8mha:////4E0WzkpAlllt1mzTa3jYzJH5nZVH8sS0S9oqHuvVP7m6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9rNKczEQA7i2K7cAAAAA=[0mJulia Grintsevich
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\CLONE
+[CLONE] $ cmd /c call C:\WINDOWS\TEMP\jenkins15853155116067610329.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\CLONE>dotnet build D:\5sem\╥хёЄшЁютрэшх\EPAM\helloci\.NET\Calculator.sln 
+
+Вас приветствует .NET 6.0!
+---------------------
+Версия пакета SDK: 6.0.305
+
+Телеметрия
+---------
+Средства .NET собирают данные об использовании для повышения удобства. Данные собираются корпорацией Майкрософт и предоставляются сообществу. Вы можете отключить отправку данных телеметрии, установив значение "1" или "true" для переменной среды DOTNET_CLI_TELEMETRY_OPTOUT в подходящей оболочке.
+
+Дополнительные сведения о сборе данных телеметрии средствами CLI .NET см. на странице https://aka.ms/dotnet-cli-telemetry.
+
+----------------
+Установлен сертификат разработки HTTPS в ASP.NET Core.
+Чтобы сделать сертификат доверенным, выполните команду "dotnet dev-certs https --trust" (только в Windows и macOS).
+Дополнительные сведения об HTTPS: https://aka.ms/dotnet-https
+----------------
+Как написать свое первое приложение: https://aka.ms/dotnet-hello-world
+Узнать о новых возможностях: https://aka.ms/dotnet-whats-new
+Просмотреть документацию: https://aka.ms/dotnet-docs
+Сообщить о проблемах и найти исходный код на GitHub: https://github.com/dotnet/core
+Для просмотра доступных команд введите команду "dotnet --help" или посетите следующую страницу: https://aka.ms/dotnet-cli.
+--------------------------------------------------------------------------------------
+Microsoft (R) Build Engine версии 17.2.2+038f9bae9 для .NET
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+MSBUILD : error MSB1009: файл проекта не существует.
+Ключ: D:\5sem\╥хёЄшЁютрэшх\EPAM\helloci\.NET\Calculator.sln
+
+C:\ProgramData\Jenkins\.jenkins\workspace\CLONE>exit 1 
+Build step '┬√яюыэшЄ№ ъюьрэфє Windows' marked build as failure
+Finished: FAILURE

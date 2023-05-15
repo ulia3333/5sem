@@ -1,0 +1,11 @@
+Started by user [8mha:////4E0WzkpAlllt1mzTa3jYzJH5nZVH8sS0S9oqHuvVP7m6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9rNKczEQA7i2K7cAAAAA=[0mJulia Grintsevich
+Running as SYSTEM
+Building on the built-in node in workspace C:\ProgramData\Jenkins\.jenkins\workspace\Simple job
+[Simple job] $ cmd /c call C:\WINDOWS\TEMP\jenkins6290692427564849319.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Simple job>ECHO HELLO! 
+HELLO!
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Simple job>exit 0 
+Инициирую новую сборку [8mha:////4MstSWpfb2TV5+62UQCvMqVMMO887mFpUH1sF61XxPDaAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZh/az8JP3gzNyCnFRVIwMgx1AfAK3jowLIAAAA[0mSimple job1
+Finished: SUCCESS
