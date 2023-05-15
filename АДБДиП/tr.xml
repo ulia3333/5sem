@@ -1,0 +1,341 @@
+table TSQLLOADER dropped.
+table TSQLLOADER created.
+no rows selected
+
+
+        ID TEXT                 DATE_VALUE
+---------- -------------------- ----------
+         1 FIRST                01-01-2001 
+         2 SECOND               01-01-2002 
+         3 THIRD                01-01-2003 
+         4 FOURTH               01-01-2004 
+         5 FIFTH                01-01-2005 
+         6 SIXTH                01-01-2006 
+         7 SEVENTH              01-01-2007 
+         8 EIGHTH               01-01-2008 
+         9 NINTH                01-01-2009 
+        10 TENTH                01-01-2010 
+        11 ELEVENTH             01-01-2011 
+        12 TWELFTH              01-01-2012 
+        13 THIRTEENTN           01-01-2013 
+        14 FORTEENTH            01-01-2014 
+        15 FIFTEENTH            01-01-2015 
+        16 SIXTHTEEN            01-01-2016 
+        17 SEVENTEENTH          01-01-2017 
+        18 EIGHTEENTH           01-01-2018 
+        19 NINTEENTH            01-01-2019 
+        20 TWENTIETH            01-01-2020 
+
+ 20 rows selected 
+
+committed.
+<?xml version='1.0'  encoding='UTF8' ?>
+<RESULTS>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[1]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FIRST]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2001]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[2]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SECOND]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2002]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[3]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[THIRD]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2003]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[4]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FOURTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2004]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[5]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FIFTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2005]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[6]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SIXTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2006]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[7]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SEVENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2007]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[8]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[EIGHTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2008]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[9]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[NINTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2009]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[10]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[TENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2010]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[11]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[ELEVENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2011]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[12]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[TWELFTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2012]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[13]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[THIRTEENTN]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2013]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[14]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FORTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2014]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[15]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FIFTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2015]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[16]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SIXTHTEEN]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2016]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[17]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SEVENTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2017]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[18]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[EIGHTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2018]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[19]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[NINTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2019]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[20]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[TWENTIETH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2020]]></COLUMN>
+	</ROW>
+</RESULTS>
+        ID TEXT                 DATE_VALUE
+---------- -------------------- ----------
+         1 FIRST                01-01-2001 
+         2 SECOND               01-01-2002 
+         3 THIRD                01-01-2003 
+         4 FOURTH               01-01-2004 
+         5 FIFTH                01-01-2005 
+         6 SIXTH                01-01-2006 
+         7 SEVENTH              01-01-2007 
+         8 EIGHTH               01-01-2008 
+         9 NINTH                01-01-2009 
+        10 TENTH                01-01-2010 
+        11 ELEVENTH             01-01-2011 
+        12 TWELFTH              01-01-2012 
+        13 THIRTEENTN           01-01-2013 
+        14 FORTEENTH            01-01-2014 
+        15 FIFTEENTH            01-01-2015 
+        16 SIXTHTEEN            01-01-2016 
+        17 SEVENTEENTH          01-01-2017 
+        18 EIGHTEENTH           01-01-2018 
+        19 NINTEENTH            01-01-2019 
+        20 TWENTIETH            01-01-2020 
+
+ 20 rows selected 
+
+        ID TEXT                 DATE_VALUE
+---------- -------------------- ----------
+         1 FIRST                01-01-2001 
+         2 SECOND               01-01-2002 
+         3 THIRD                01-01-2003 
+         4 FOURTH               01-01-2004 
+         5 FIFTH                01-01-2005 
+         6 SIXTH                01-01-2006 
+         7 SEVENTH              01-01-2007 
+         8 EIGHTH               01-01-2008 
+         9 NINTH                01-01-2009 
+        10 TENTH                01-01-2010 
+        11 ELEVENTH             01-01-2011 
+        12 TWELFTH              01-01-2012 
+        13 THIRTEENTN           01-01-2013 
+        14 FORTEENTH            01-01-2014 
+        15 FIFTEENTH            01-01-2015 
+        16 SIXTHTEEN            01-01-2016 
+        17 SEVENTEENTH          01-01-2017 
+        18 EIGHTEENTH           01-01-2018 
+        19 NINTEENTH            01-01-2019 
+        20 TWENTIETH            01-01-2020 
+
+ 20 rows selected 
+
+session SET altered.
+table TSQLLOADER dropped.
+table TSQLLOADER created.
+committed.
+        ID TEXT                 DATE_VALUE
+---------- -------------------- ----------
+         1 FIRST                01-01-2001 
+         2 SECOND               01-01-2002 
+         3 THIRD                01-01-2003 
+         4 FOURTH               01-01-2004 
+         5 FIFTH                01-01-2005 
+         6 SIXTH                01-01-2006 
+         7 SEVENTH              01-01-2007 
+         8 EIGHTH               01-01-2008 
+         9 NINTH                01-01-2009 
+        10 TENTH                01-01-2010 
+        11 ELEVENTH             01-01-2011 
+        12 TWELFTH              01-01-2012 
+        13 THIRTEENTN           01-01-2013 
+        14 FORTEENTH            01-01-2014 
+        15 FIFTEENTH            01-01-2015 
+        16 SIXTHTEEN            01-01-2016 
+        17 SEVENTEENTH          01-01-2017 
+        18 EIGHTEENTH           01-01-2018 
+        19 NINTEENTH            01-01-2019 
+        20 TWENTIETH            01-01-2020 
+
+ 20 rows selected 
+
+        ID TEXT                 DATE_VALUE
+---------- -------------------- ----------
+         1 FIRST                01-01-2001 
+         2 SECOND               01-01-2002 
+         3 THIRD                01-01-2003 
+         4 FOURTH               01-01-2004 
+         5 FIFTH                01-01-2005 
+         6 SIXTH                01-01-2006 
+         7 SEVENTH              01-01-2007 
+         8 EIGHTH               01-01-2008 
+         9 NINTH                01-01-2009 
+        10 TENTH                01-01-2010 
+        11 ELEVENTH             01-01-2011 
+        12 TWELFTH              01-01-2012 
+        13 THIRTEENTN           01-01-2013 
+        14 FORTEENTH            01-01-2014 
+        15 FIFTEENTH            01-01-2015 
+        16 SIXTHTEEN            01-01-2016 
+        17 SEVENTEENTH          01-01-2017 
+        18 EIGHTEENTH           01-01-2018 
+        19 NINTEENTH            01-01-2019 
+        20 TWENTIETH            01-01-2020 
+
+ 20 rows selected 
+
+<?xml version='1.0'  encoding='UTF8' ?>
+<RESULTS>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[1]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FIRST]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2001]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[2]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SECOND]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2002]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[3]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[THIRD]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2003]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[4]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FOURTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2004]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[5]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FIFTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2005]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[6]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SIXTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2006]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[7]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SEVENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2007]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[8]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[EIGHTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2008]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[9]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[NINTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2009]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[10]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[TENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2010]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[11]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[ELEVENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2011]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[12]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[TWELFTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2012]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[13]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[THIRTEENTN]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2013]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[14]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FORTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2014]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[15]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[FIFTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2015]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[16]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SIXTHTEEN]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2016]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[17]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[SEVENTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2017]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[18]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[EIGHTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2018]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[19]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[NINTEENTH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2019]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ID"><![CDATA[20]]></COLUMN>
+		<COLUMN NAME="TEXT"><![CDATA[TWENTIETH]]></COLUMN>
+		<COLUMN NAME="DATE_VALUE"><![CDATA[01-01-2020]]></COLUMN>
+	</ROW>
+</RESULTS>
