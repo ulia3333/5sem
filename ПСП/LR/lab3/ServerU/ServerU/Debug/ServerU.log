@@ -1,0 +1,5 @@
+﻿  Error.cpp
+  ServerU.cpp
+D:\5sem\ПСП\LR\lab3\ServerU\ServerU\ServerU.cpp(24,9): warning C4101: cS: неиспользованная локальная переменная
+  Создание кода...
+  ServerU.vcxproj -> D:\5sem\ПСП\LR\lab3\ServerU\Debug\ServerU.exe

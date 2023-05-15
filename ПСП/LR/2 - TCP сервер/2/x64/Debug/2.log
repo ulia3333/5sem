@@ -1,0 +1,12 @@
+﻿  ServerT.cpp
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(4,1): warning C4005: _WINSOCK_DEPRECATED_NO_WARNINGS: изменение макроопределения
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(4,1): message : "_WINSOCK_DEPRECATED_NO_WARNINGS" ранее объявлен в командной строке
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(3): warning C4603: _CRT_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(3): message : Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(6): message : использование предварительно скомпилированного заголовка
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(4): warning C4603: _WINSOCK_DEPRECATED_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(4): message : Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(6): message : использование предварительно скомпилированного заголовка
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(115,8): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\5sem\ПСП\LR\2 - TCP сервер\2\ServerT.cpp(53,6): warning C4101: t: неиспользованная локальная переменная
+  2.vcxproj -> D:\5sem\ПСП\LR\2 - TCP сервер\x64\Debug\ServerT.exe
