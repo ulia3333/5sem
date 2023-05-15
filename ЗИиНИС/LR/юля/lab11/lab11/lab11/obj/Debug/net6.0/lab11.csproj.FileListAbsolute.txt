@@ -1,0 +1,30 @@
+D:\3\Защита инфы Урбанович\lab11\lab11\bin\Debug\net6.0\lab11.exe
+D:\3\Защита инфы Урбанович\lab11\lab11\bin\Debug\net6.0\lab11.deps.json
+D:\3\Защита инфы Урбанович\lab11\lab11\bin\Debug\net6.0\lab11.runtimeconfig.json
+D:\3\Защита инфы Урбанович\lab11\lab11\bin\Debug\net6.0\lab11.dll
+D:\3\Защита инфы Урбанович\lab11\lab11\bin\Debug\net6.0\lab11.pdb
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.csproj.AssemblyReference.cache
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.GeneratedMSBuildEditorConfig.editorconfig
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.AssemblyInfoInputs.cache
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.AssemblyInfo.cs
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.csproj.CoreCompileInputs.cache
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.dll
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\refint\lab11.dll
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.pdb
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\lab11.genruntimeconfig.cache
+D:\3\Защита инфы Урбанович\lab11\lab11\obj\Debug\net6.0\ref\lab11.dll
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\bin\Debug\net6.0\lab11.exe
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\bin\Debug\net6.0\lab11.deps.json
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\bin\Debug\net6.0\lab11.runtimeconfig.json
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\bin\Debug\net6.0\lab11.dll
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\bin\Debug\net6.0\lab11.pdb
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.csproj.AssemblyReference.cache
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.GeneratedMSBuildEditorConfig.editorconfig
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.AssemblyInfoInputs.cache
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.AssemblyInfo.cs
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.csproj.CoreCompileInputs.cache
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.dll
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\refint\lab11.dll
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.pdb
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\lab11.genruntimeconfig.cache
+D:\3kr_5sem\ЗИиНИС\lab11\lab11\lab11\obj\Debug\net6.0\ref\lab11.dll

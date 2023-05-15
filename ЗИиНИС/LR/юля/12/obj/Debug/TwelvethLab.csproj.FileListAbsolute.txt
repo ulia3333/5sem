@@ -1,0 +1,15 @@
+E:\Универ\ЗиНИС\TwelvethLab\bin\Debug\TwelvethLab.exe.config
+E:\Универ\ЗиНИС\TwelvethLab\bin\Debug\TwelvethLab.exe
+E:\Универ\ЗиНИС\TwelvethLab\bin\Debug\TwelvethLab.pdb
+E:\Универ\ЗиНИС\TwelvethLab\obj\Debug\TwelvethLab.csproj.AssemblyReference.cache
+E:\Универ\ЗиНИС\TwelvethLab\obj\Debug\TwelvethLab.csproj.SuggestedBindingRedirects.cache
+E:\Универ\ЗиНИС\TwelvethLab\obj\Debug\TwelvethLab.csproj.CoreCompileInputs.cache
+E:\Универ\ЗиНИС\TwelvethLab\obj\Debug\TwelvethLab.exe
+E:\Универ\ЗиНИС\TwelvethLab\obj\Debug\TwelvethLab.pdb
+D:\3 курс\ОЗИ\TwelvethLab\bin\Debug\TwelvethLab.exe.config
+D:\3 курс\ОЗИ\TwelvethLab\bin\Debug\TwelvethLab.exe
+D:\3 курс\ОЗИ\TwelvethLab\bin\Debug\TwelvethLab.pdb
+D:\3 курс\ОЗИ\TwelvethLab\obj\Debug\TwelvethLab.csproj.AssemblyReference.cache
+D:\3 курс\ОЗИ\TwelvethLab\obj\Debug\TwelvethLab.csproj.CoreCompileInputs.cache
+D:\3 курс\ОЗИ\TwelvethLab\obj\Debug\TwelvethLab.exe
+D:\3 курс\ОЗИ\TwelvethLab\obj\Debug\TwelvethLab.pdb
