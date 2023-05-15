@@ -1,0 +1,231 @@
+--alter pluggable database SVA_PDB open;
+--alter session set container = CDB$ROOT;
+--alter session set container = SVA_PDB;
+--SET AUTOCOMMIT ON
+--alter session set nls_date_format = 'DD-MM-YYYY';
+grant create sequence to testuser;
+
+GRANT CREATE TABLE, CREATE PROCEDURE, CREATE TRIGGER, CREATE
+SEQUENCE, CREATE VIEW, CREATE MATERIALIZED VIEW TO DYV;
+GRANT CREATE USER, DROP USER TO DYV;
+GRANT CREATE SESSION TO DYV WITH ADMIN OPTION;
+GRANT CREATE SYNONYM, CREATE PUBLIC SYNONYM TO DYV;
+GRANT ALL PRIVILEGES TO DYV;
+ALTER USER DYV quota unlimited on EXAM_1;
+
+--аналог top(N)
+select count(*) from 
+(
+    select * from OFFICES
+)
+where rownum <= 2;
+
+select * from OFFICES;
+select * from ORDERS;
+select * from PRODUCTS;
+select * from SALESREPS;
+select * from CUSTOMERS;
+--'JCP Inc.'
+
+--  1.Создайте процедуру, которая выводит список заказов и их итоговую среднюю стоимость для определенного покупателя. 
+--    Параметр – наименование покупателя. Обработайте возможные ошибки.
+      create or replace procedure ord(custName customers.company%type)
+      is
+        cursor cr is select order_num,amount
+        from orders o inner join customers c
+        on o.cust = c.cust_num
+        where c.company = custName;
+        
+        crew cr%rowtype;
+        crows number := 0;
+        camount number := 0;
+      begin
+        for crew in cr
+        loop
+              dbms_output.put_line(crew.order_num || ' amount: ' || crew.amount);
+              crows := crows + 1;
+              camount := camount + crew.amount;
+        end loop;
+         
+        if camount = 0 then
+          dbms_output.put_line(crew.order_num || ' amount: ' || crew.amount);
+        else
+          dbms_output.put_line(' avg: ' || camount/crows);
+        end if;
+          
+        exception when others then dbms_output.put_line(sqlerrm);
+      end;
+      
+      begin
+        ord('JCP Inc.');
+      end;
+
+--2.    Создайте функцию, которая подсчитывает количество заказов покупателя за определенный период. 
+--      Параметры – покупатель, дата начала периода, дата окончания периода.
+        create or replace function f1(cname customers.company%type, date1 orders.order_date%type, date2 orders.order_date%type)
+        return number is
+        results number;
+        begin
+          select count(*) into results
+          from orders o inner join customers c 
+          on o.cust = c.cust_num
+          where c.company = cname and o.order_date between date1 and date2;
+          return results;
+        end;
+        
+        select f1('JCP Inc.',to_date('17.07.07'), to_date('01.11.08')) from dual;
+        
+--3.    Создайте процедуру, которая выводит список всех товаров, приобретенных покупателем, с указанием суммы продаж по убыванию.
+--      Параметр – наименование покупателя. Обработайте возможные ошибки.
+        create or replace procedure testpr1(cname customers.company%type)
+        is 
+          cursor cr is select description, sum(amount) sum_am
+          from orders o inner join products pr
+          on o.product = pr.product_id
+          join customers c 
+          on o.cust = c.cust_num
+          where c.company = cname
+          group by description
+          order by sum(amount) desc;  
+        crew cr%rowtype;
+        begin
+          for crew in cr 
+          loop
+            dbms_output.put_line(crew.description || ' amount: ' || crew.sum_am);
+          end loop;
+        end;
+          
+        begin 
+          testpr1('JCP Inc.');
+        end;
+ 
+---- 4. Создайте функцию, которая добавляет покупателя в таблицу Customers, и
+      --возвращает код добавленного покупателя или -1 в случае ошибки. 
+      --Параметры соответствуют столбцам таблицы, кроме кода покупателя, который задается при
+      --помощи последовательности
+      create sequence exam1
+      start with 1000
+      increment by 1;
+      
+        create or replace function addf(par1 customers.company%type, par2 customers.cust_rep%type, par3 customers.credit_limit%type)
+        return number is
+        results number;
+        begin
+          insert into customers(cust_num,company,cust_rep,credit_limit)
+            values(exam1.nextval,par1,par2,par3)
+            returning cust_num into results;
+            return results;
+          exception when others then
+            DBMS_OUTPUT.PUT_LINE('AC error: '||sqlerrm);
+            return -1;
+        end;
+        
+        declare 
+        results2 number;
+        begin
+        results2 := addf('test', 110, 55000);
+        dbms_output.put_line('New CUSTOMER: '||results2);
+        end;
+        --rollback;
+
+  --5.    Создайте процедуру, которая выводит список покупателей, в порядке убывания общей стоимости заказов.
+ --       Параметры – дата начала периода, дата окончания периода. Обработайте возможные ошибки.
+          create or replace procedure pr2(date1 orders.order_date%type, date2 orders.order_date%type)
+          is 
+            cursor cr is 
+            select company,sum(amount) sum_am
+            from orders o join customers c
+            on o.cust = c.cust_num
+            where o.order_date between date1 and date2
+            group by company
+            order by sum(amount) desc;
+          crew cr%rowtype;
+          begin
+            for crew in cr 
+              loop
+                dbms_output.put_line(crew.company || ' ' || crew.sum_am);
+              end loop;
+          end;
+          
+          begin
+            pr2(to_date('17.07.07'), to_date('01.11.08'));
+          end;
+ --6.    Создайте функцию, которая подсчитывает количество заказанных товаров за определенный период.
+--      Параметры – дата начала периода, дата окончания периода.
+        create or replace function fn4(date1 orders.order_date%type, date2 orders.order_date%type)
+        return number is
+        results number(3);
+        begin
+          select count(*) into results 
+          from orders o join products p
+          on p.product_id = o.product
+          where order_date between date1 and date2;
+          return results;
+        end;
+        
+        select fn4('17.07.07','01.11.08') from dual;
+--7.    Создайте процедуру, которая выводит список покупателей, у которых есть заказы в этом временном периоде.
+ --     Параметры – дата начала периода, дата окончания периода. Обработайте возможные ошибки
+        create or replace procedure pr10(date1 orders.order_date%type, date2 orders.order_date%type)
+        is
+          cursor cr is select distinct company 
+          from orders o join customers c
+          on o.cust = c.cust_num
+          where o.order_date between date1 and date2;
+        crew cr%rowtype;
+        begin
+            for crew in cr
+            loop
+              dbms_output.put_line(crew.company);
+            end loop;
+        end;
+        
+        begin
+          pr10(to_date('17.07.07'), to_date('01.02.08'));
+        end;
+ --8.    Создайте функцию, которая подсчитывает количество покупателей определенного товара.
+--      Параметры – наименование товара.
+        create or replace function f10(prod_name products.description%type)
+        return number as res number;
+        begin 
+          select count(distinct(cust)) into res from orders o
+          join products p on p.product_id = o.product
+          where p.description = prod_name;
+          return res;
+        end;
+        
+        select f10('Size 4 Widget') from dual;
+
+--9.    Создайте процедуру, которая увеличивает на 10% стоимость определенного товара.
+--      Параметр – наименование товара. Обработайте возможные ошибки
+        create or replace procedure upprice(prName PRODUCTS.PRODUCT_ID%type)
+        is 
+          p products.price%type;
+        begin
+          select price into p from products where product_id = prName;
+          dbms_output.put_line(p);
+          update products set price = price*1.1 where product_id = prName;
+           select price into p from products where product_id = prName;
+          dbms_output.put_line(p);
+          exception when others then  dbms_output.put_line('lol');
+        end;
+        
+        begin
+          upprice('2A45C'); 
+        end;
+        --rollback
+        
+--10. Создайте функцию, которая вычисляет количество заказов, выполненных в определенном году для определенного покупателя.
+--    Параметры – покупатель, год. товара.
+      create or replace function lastf(cName customers.company%type, year number)
+      return number is
+      results number;
+      begin
+          select count(*) into results
+          from orders o join customers c
+          on o.cust = c.cust_num
+          where c.company = cName and extract(year from o.order_date) = year;
+          return results;
+      end;
+      
+      select lastf('Acme Mfg.',2007) from dual;
